@@ -1,0 +1,22 @@
+* {margin:0; padding:0}
+body {font:12px Verdana,Arial;}
+#wrapper {width:600px;float:left;padding-top:50px;}
+	 
+#sliderbutton {position:absolute;transform: translate( 0%, 0% ); width:32px; padding-top:180px;}
+#sliderbutton2 {position:absolute;transform: translate( 1756%, 0% ); width:32px; padding-top:180px;}
+#sliderbutton img {cursor:pointer;background:#555;border-radius:10%;height:70px;width:40px;opacity:0.5;}	
+#sliderbutton img:hover {background:#111}
+#sliderbutton2 img {cursor:pointer;background:#555;border-radius:10%;height:70px;width:40px;opacity:0.5;}	
+#sliderbutton2 img:hover {background:#111}
+#slider {float:left; position:relative; overflow:auto; width:600px; height:407px; border:2px solid #fff; background:#fff}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:600px; height:407px; padding-right:10px}
+
+	 	
+.pagination {position:absolute;transform:translate(0%,1500%); float:left; list-style:none; height:25px; margin:5px 5px 0 30px}
+.pagination li {float:left; cursor:pointer; padding:8px 8px; background:#bdbdbd; border-radius:50%; margin:0 7px 0 0;opacity:0.5}
+.pagination li:hover {background:#BDBDBD;opacity:1}
+li.current { background:white;opacity:1}
+
+li#content {width:464px; height:270px; padding:15px 28px 15px 18px}
+#content h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036}

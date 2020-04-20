@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Resource name="jdbc/java5kbe"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="java5kbe"
+	password="java5kbe"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:mysql://118.131.179.138/java5kbe?serverTimezone=UTC"
+	maxActive="500"
+	maxIdle="100"/>
+</Context>
